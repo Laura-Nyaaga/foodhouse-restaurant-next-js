@@ -1,3 +1,20 @@
+// {
+//   "extends": "next/core-web-vitals",
+//   "rules": {
+//     "@next/next/no-img-element": "off"
+//   }
+// }
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "react/no-unescaped-entities": "off" // This line disables the unescaped entities warning
+  }
 }
+
+
+// {
+//   "rules": {
+//     "@next/next/no-img-element": "off"
+//   }
+// }
